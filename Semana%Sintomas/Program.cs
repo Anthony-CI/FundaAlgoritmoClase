@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Semana_Sintomas
@@ -12,7 +13,10 @@ namespace Semana_Sintomas
         {
             for (int i = 1; i <= 3; i++)
             {
+                Console.Clear();
+                Console.Beep(900, 2000);
                 Console.WriteLine("hola mundo" + " "+ i);
+                Thread.Sleep(1000);
             }
 
             Console.WriteLine("Sintomas de COVID");
