@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5EDF1872-FEE7-4D15-896D-2147BCDD2E3E}</ProjectGuid>
+    <ProjectGuid>{ED4F9AB2-9EC6-4D27-B70A-1547864A1D48}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Semana_Ejer2</RootNamespace>
-    <AssemblyName>Semana%25Ejer2</AssemblyName>
+    <RootNamespace>Semana5Eje3</RootNamespace>
+    <AssemblyName>Semana5Eje3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
