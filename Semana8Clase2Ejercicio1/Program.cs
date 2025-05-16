@@ -74,6 +74,17 @@ namespace Semana8Clase2Ejercicio1
                         break;
 
                     case 4: //Divicion
+                        Console.WriteLine("ingrese primer numero");
+                        float nun1 = float.Parse(Console.ReadLine());
+                        Console.WriteLine("ingrese segundo numero");
+                        float nnun2 = float.Parse(Console.ReadLine());
+                        float rd = Dividir(nun1, nnun2);
+                        if (rd !=0)
+                        {
+                            Console.WriteLine("La Divicion es: " + rd);
+
+                        }
+                        
                         break;
 
                     default:// opcion no valida
@@ -110,6 +121,26 @@ namespace Semana8Clase2Ejercicio1
         {
             float resultado = x * y;
             return resultado;
+        }
+
+        static float Dividir(float x, float y)
+        {
+            float resultado = x / y;
+
+            if (y != 0)
+            {
+                 resultado = x / y;
+                 return resultado;
+
+            }
+            else
+            {
+                Console.WriteLine("No se puede dividir entre cero");
+            }
+
+            return 0;
+            
+
         }
 
     }
