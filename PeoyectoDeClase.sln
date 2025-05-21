@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana9Ejercicio1", "Semana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana9UsoDeClases", "Semana9UsoDeClases\Semana9UsoDeClases.csproj", "{B517B2CA-EF51-46B5-9CF6-09AEF49A282C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana9Clase2Ejerc1", "Semana9Clase2Ejerc1\Semana9Clase2Ejerc1.csproj", "{B923EABD-C82D-4E66-AC97-0DD2813E0DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana9Clas2BibliotecaClases", "Semana9Clas2BibliotecaClases\Semana9Clas2BibliotecaClases.csproj", "{5383C301-BB13-4B5D-A5FC-8B7189693F9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{B517B2CA-EF51-46B5-9CF6-09AEF49A282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B517B2CA-EF51-46B5-9CF6-09AEF49A282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B517B2CA-EF51-46B5-9CF6-09AEF49A282C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B923EABD-C82D-4E66-AC97-0DD2813E0DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B923EABD-C82D-4E66-AC97-0DD2813E0DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B923EABD-C82D-4E66-AC97-0DD2813E0DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B923EABD-C82D-4E66-AC97-0DD2813E0DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5383C301-BB13-4B5D-A5FC-8B7189693F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5383C301-BB13-4B5D-A5FC-8B7189693F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5383C301-BB13-4B5D-A5FC-8B7189693F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5383C301-BB13-4B5D-A5FC-8B7189693F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
