@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Semana9Ejercicio1
 {
-    class Perimetros
+    public class Perimetros
     {
         public double PerimetroCuadrado(double lado)
         {
@@ -35,7 +35,7 @@ namespace Semana9Ejercicio1
 
         public void PerimetroRectangulo(double baseR, double altura, ref double r)
         {
-            // El ref se usa para que el resultado se almacene en la variable r
+            // El ref se usa para que el resultado se almacene en la variable r y asu vez ocupa el mismo espacio de memoria
             r = (baseR+altura) * 2;
         }
     }

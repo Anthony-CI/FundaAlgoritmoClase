@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Semana9Ejercicio1
 {
-    class Areas
+    public class Areas
     {
 
         public double AreaCirculo(double r) {
