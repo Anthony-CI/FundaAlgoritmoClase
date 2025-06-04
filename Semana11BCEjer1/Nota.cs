@@ -125,7 +125,7 @@ namespace Semana11BCEjer1
                     
                     for (int i = 0; i < canAlun; i++)
                     {
-                        double prom = (notasT1[i]+0.10)+ (notasT2[i] + 0.2) + (notasT2[i] + 0.3) + (notasEF[i] + 0.4);
+                        double prom = (notasT1[i]*0.10)+ (notasT2[i] * 0.2) + (notasT2[i] * 0.3) + (notasEF[i] * 0.4);
                     Console.WriteLine($"Alumno {i + 1}: T1: {notasT1[i]}, T2: {notasT2[i]}, T3: {notasT3[i]}, EF: {notasEF[i]}, Promedio: {prom}");
                     }
                     
