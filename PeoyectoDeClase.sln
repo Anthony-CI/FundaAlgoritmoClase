@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana12Clas1ejer1BC", "Sem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana12Clase1Ejer1Console", "Semana12Clase1Ejer1Console\Semana12Clase1Ejer1Console.csproj", "{4F077667-390D-469B-9A35-106F7B3248AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana12BCCEjer1Class2", "Semana12BCCEjer1Class2\Semana12BCCEjer1Class2.csproj", "{AB8BC627-C0AC-4CAA-92DE-A44B53CD45E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana12ConsoleEjer1Class2", "Semana12ConsoleEjer1Class2\Semana12ConsoleEjer1Class2.csproj", "{06596A77-9645-47BF-B682-80BBAFDF928A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{4F077667-390D-469B-9A35-106F7B3248AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F077667-390D-469B-9A35-106F7B3248AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F077667-390D-469B-9A35-106F7B3248AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8BC627-C0AC-4CAA-92DE-A44B53CD45E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8BC627-C0AC-4CAA-92DE-A44B53CD45E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8BC627-C0AC-4CAA-92DE-A44B53CD45E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8BC627-C0AC-4CAA-92DE-A44B53CD45E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06596A77-9645-47BF-B682-80BBAFDF928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06596A77-9645-47BF-B682-80BBAFDF928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06596A77-9645-47BF-B682-80BBAFDF928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06596A77-9645-47BF-B682-80BBAFDF928A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
