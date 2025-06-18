@@ -10,14 +10,26 @@ namespace Semana12Clas1
     {
         string[] listaAlumnos = new string[0];
 
+
+
+        public void cantidad(int cantidad)
+        {
+            for (int i = 0; i < cantidad; i++) {
+                Console.WriteLine("Ingrese Nombre");
+                string nombre = Console.ReadLine();
+                Insertar(nombre);
+            }
+        }
+
         //insertar
+
         public void Insertar(string nombre)
         {
             Array.Resize(ref listaAlumnos, listaAlumnos.Length + 1);
             int indice = listaAlumnos.Length - 1;
             listaAlumnos[indice] = nombre;
         }
-
+        
         //Mostrar
 
         public void Mostrar()

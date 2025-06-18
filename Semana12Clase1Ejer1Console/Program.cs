@@ -13,13 +13,22 @@ namespace Semana12Clase1Ejer1Console
         static void Main(string[] args)
         {
             MetodosArreglos lista = new MetodosArreglos();
-            lista.Insertar("Juan");
-            lista.Insertar("Maria");
-            lista.Insertar("Pedro");
+
+            Console.WriteLine("Cuantos nombres quiere ingresar");
+            int cantidad = Convert.ToInt32(Console.ReadLine());
+            lista.cantidad(cantidad);
+            //lista.Insertar("Juan");
+            //lista.Insertar("Maria");
+            //lista.Insertar("Pedro");
+            Console.WriteLine("*******************************************");
             lista.Mostrar();
             Console.ReadKey();
             Console.WriteLine("*******************************************");
-            lista.Eliminar("Juan");
+            Console.WriteLine("Ingrese nombre a eliminar");
+            string eliminarnombre=Console.ReadLine();
+            lista.Eliminar(eliminarnombre);
+            //lista.Eliminar("Juan");
+            Console.WriteLine("*******************************************");
             lista.Mostrar();
 
 
